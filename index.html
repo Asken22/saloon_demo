@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMÉA Studio | Luxury. Beauty. Confidence.</title>
+    <meta name="description" content="Experience premium hair styling, spa treatments, and personalized care at LUMÉA Studio. Your luxury self-care destination.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <h2 class="logo">LUMÉA</h2>
+            <div class="loader-line"></div>
+        </div>
+    </div>
+
+    <div id="scroll-progress"></div>
+    <div class="cursor-blob"></div>
+    <div class="cursor-blob-follower"></div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">LUMÉA</a>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="#book" class="btn-primary nav-btn">Book Appointment</a>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-background">
+                <img src="images/hero_salon.jpg" alt="Luxury Salon Interior" class="hero-img parallax-img">
+                <div class="hero-overlay"></div>
+            </div>
+            
+            <div class="hero-content fade-up">
+                <h1>Beauty That Feels As Good As It Looks.</h1>
+                <p>From expert hair styling to relaxing spa treatments, every visit is designed to help you feel refreshed, confident, and cared for.</p>
+                <div class="hero-buttons">
+                    <a href="#book" class="btn-primary">Book Appointment</a>
+                    <a href="#services" class="btn-secondary">Explore Services</a>
+                </div>
+            </div>
+
+            <!-- Floating 3D Elements -->
+            <div class="floating-elements">
+                <img src="images/product_mockup.jpg" alt="Cosmetic Product" class="float-item float-1 mouse-parallax" data-speed="3">
+                <div class="float-shape float-shape-1 mouse-parallax" data-speed="-2"></div>
+                <div class="float-shape float-shape-2 mouse-parallax" data-speed="4"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container about-grid">
+                <div class="about-text fade-up">
+                    <span class="subtitle">Our Philosophy</span>
+                    <h2>More Than A Salon.</h2>
+                    <p>At LUMÉA Studio, we believe that self-care is a necessity, not a luxury. Our sanctuary is designed to offer you an escape from the outside world, a place where skilled artisans dedicate their expertise to enhancing your natural beauty. We combine premium ingredients, refined techniques, and a deeply personalized approach to ensure every moment you spend with us is restorative and deeply satisfying.</p>
+                </div>
+                <div class="about-image glass-card fade-up delay-1">
+                    <img src="images/gallery_spa.jpg" alt="Relaxing Spa Atmosphere">
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <span class="subtitle">Our Expertise</span>
+                    <h2>Premium Services</h2>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card glass-card hover-lift fade-up delay-1">
+                        <div class="service-icon">✂️</div>
+                        <h3>Hair Styling</h3>
+                        <p>Bespoke cuts and sophisticated styling tailored to your features and lifestyle.</p>
+                    </div>
+                    <div class="service-card glass-card hover-lift fade-up delay-2">
+                        <div class="service-icon">🎨</div>
+                        <h3>Hair Coloring</h3>
+                        <p>Dimensional balayage, rich tints, and flawless color correction.</p>
+                    </div>
+                    <div class="service-card glass-card hover-lift fade-up delay-3">
+                        <div class="service-icon">✨</div>
+                        <h3>Facial Treatments</h3>
+                        <p>Rejuvenating treatments designed to illuminate and restore your natural glow.</p>
+                    </div>
+                    <div class="service-card glass-card hover-lift fade-up delay-4">
+                        <div class="service-icon">🌿</div>
+                        <h3>Spa Therapy</h3>
+                        <p>Immersive therapeutic sessions to relieve tension and calm the mind.</p>
+                    </div>
+                    <div class="service-card glass-card hover-lift fade-up delay-1">
+                        <div class="service-icon">💍</div>
+                        <h3>Bridal Makeup</h3>
+                        <p>Elegant, long-lasting artistry for your most memorable moments.</p>
+                    </div>
+                    <div class="service-card glass-card hover-lift fade-up delay-2">
+                        <div class="service-icon">💅</div>
+                        <h3>Nail Care</h3>
+                        <p>Precision manicures and pedicures with premium lasting finishes.</p>
+                    </div>
+                    <div class="service-card glass-card hover-lift fade-up delay-3">
+                        <div class="service-icon">💧</div>
+                        <h3>Skin Care</h3>
+                        <p>Advanced botanical therapies to deeply nourish and hydrate your skin.</p>
+                    </div>
+                    <div class="service-card glass-card hover-lift fade-up delay-4">
+                        <div class="service-icon">💆‍♀️</div>
+                        <h3>Massage Therapy</h3>
+                        <p>Expert techniques to soothe muscles and improve circulation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="why-us">
+            <div class="container">
+                <div class="why-us-grid">
+                    <div class="why-us-image glass-card fade-up">
+                        <img src="images/gallery_interior.jpg" alt="Luxury Interior">
+                    </div>
+                    <div class="why-us-content">
+                        <div class="section-header fade-up">
+                            <span class="subtitle">The Difference</span>
+                            <h2>Why Choose Us</h2>
+                        </div>
+                        <ul class="features-list">
+                            <li class="fade-up delay-1">
+                                <span class="check">✓</span>
+                                <div>
+                                    <h4>Luxury Interior</h4>
+                                    <p>A beautifully designed space that instantly puts you at ease.</p>
+                                </div>
+                            </li>
+                            <li class="fade-up delay-2">
+                                <span class="check">✓</span>
+                                <div>
+                                    <h4>Certified Professionals</h4>
+                                    <p>Our team consists of highly trained and passionate experts.</p>
+                                </div>
+                            </li>
+                            <li class="fade-up delay-3">
+                                <span class="check">✓</span>
+                                <div>
+                                    <h4>Premium Products</h4>
+                                    <p>We exclusively use high-end, clinically proven beauty products.</p>
+                                </div>
+                            </li>
+                            <li class="fade-up delay-4">
+                                <span class="check">✓</span>
+                                <div>
+                                    <h4>Relaxing Atmosphere</h4>
+                                    <p>Ambient lighting and soothing sounds for total relaxation.</p>
+                                </div>
+                            </li>
+                            <li class="fade-up delay-5">
+                                <span class="check">✓</span>
+                                <div>
+                                    <h4>Personalized Care</h4>
+                                    <p>Treatments customized specifically for your unique needs.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <div class="section-header center fade-up">
+                    <span class="subtitle">Our Space</span>
+                    <h2>The LUMÉA Experience</h2>
+                </div>
+                <div class="masonry-grid">
+                    <div class="gallery-item glass-card hover-zoom fade-up">
+                        <img src="images/gallery_interior.jpg" alt="Interior">
+                    </div>
+                    <div class="gallery-item glass-card hover-zoom fade-up delay-1">
+                        <img src="images/gallery_hair.jpg" alt="Hair Styling">
+                    </div>
+                    <div class="gallery-item glass-card hover-zoom fade-up delay-2">
+                        <img src="images/gallery_spa.jpg" alt="Spa Room">
+                    </div>
+                    <div class="gallery-item glass-card hover-zoom fade-up delay-3">
+                        <img src="images/gallery_products.jpg" alt="Beauty Products">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <div class="section-header center fade-up">
+                    <span class="subtitle">Investment in Yourself</span>
+                    <h2>Signature Packages</h2>
+                </div>
+                <div class="pricing-grid">
+                    <div class="price-card glass-card fade-up">
+                        <div class="card-header">
+                            <h3>Essential</h3>
+                            <div class="price"><span>₹</span>3,500</div>
+                        </div>
+                        <ul class="price-features">
+                            <li>Signature Haircut & Styling</li>
+                            <li>Deep Conditioning Treatment</li>
+                            <li>Classic Manicure</li>
+                            <li>Relaxing Scalp Massage</li>
+                        </ul>
+                        <a href="#book" class="btn-outline">Select Essential</a>
+                    </div>
+                    
+                    <div class="price-card glass-card premium-card fade-up delay-1">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="card-header">
+                            <h3>Premium</h3>
+                            <div class="price"><span>₹</span>7,500</div>
+                        </div>
+                        <ul class="price-features">
+                            <li>Custom Hair Coloring</li>
+                            <li>Advanced Facial Treatment</li>
+                            <li>Spa Pedicure & Manicure</li>
+                            <li>Extended Neck & Shoulder Massage</li>
+                        </ul>
+                        <a href="#book" class="btn-primary">Select Premium</a>
+                    </div>
+                    
+                    <div class="price-card glass-card fade-up delay-2">
+                        <div class="card-header">
+                            <h3>Luxury Signature</h3>
+                            <div class="price"><span>₹</span>15,000</div>
+                        </div>
+                        <ul class="price-features">
+                            <li>Full Day Spa Access</li>
+                            <li>Bridal or Occasion Makeup</li>
+                            <li>90-Minute Signature Massage</li>
+                            <li>Premium Botanical Skin Care</li>
+                            <li>Complimentary Champagne</li>
+                        </ul>
+                        <a href="#book" class="btn-outline">Select Luxury</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="testimonial-slider fade-up">
+                    <div class="testimonial-card glass-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="quote">"Walking into LUMÉA feels like stepping into another world. The attention to detail is remarkable, and I always leave feeling completely renewed. The staff truly listens to what you want."</p>
+                        <div class="author">
+                            <h4>Priya Sharma</h4>
+                            <span>Regular Client</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="book" class="cta-section">
+            <div class="container">
+                <div class="cta-card glass-card fade-up">
+                    <h2>Ready For Your Next Self-Care Day?</h2>
+                    <p>Reserve your moment of peace and let our experts take care of the rest.</p>
+                    <a href="#contact-form-section" class="btn-primary btn-large">Book Your Appointment</a>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Form Section -->
+        <section id="contact-form-section" class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-text fade-up">
+                        <span class="subtitle">Get In Touch</span>
+                        <h2>Send Us A Message</h2>
+                        <p>Have a question about our services or want to customize a spa day? Drop us a line and our concierge will get back to you shortly.</p>
+                    </div>
+                    <div class="contact-form-container glass-card fade-up delay-1">
+                        <form id="portfolio-form" class="luxury-form">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required placeholder="Jane Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required placeholder="jane@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="subject">
+                                    <option value="appointment">Book Appointment</option>
+                                    <option value="inquiry">General Inquiry</option>
+                                    <option value="feedback">Feedback</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4" required placeholder="How can we help you today?"></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary form-submit-btn">Send Message</button>
+                            <p id="form-status" class="form-status-msg"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2 class="logo">LUMÉA</h2>
+                    <p>Luxury. Beauty. Confidence.</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>+91 98765 43210</p>
+                    <p>hello@lumeastudio.com</p>
+                    <p>123 Luxury Avenue, South Delhi, 110001</p>
+                </div>
+                <div class="footer-hours">
+                    <h4>Working Hours</h4>
+                    <p>Mon - Fri: 10:00 AM - 8:00 PM</p>
+                    <p>Sat - Sun: 9:00 AM - 9:00 PM</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Pinterest</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 LUMÉA Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js?v=2"></script>
+</body>
+</html>
